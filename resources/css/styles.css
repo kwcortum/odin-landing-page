@@ -94,6 +94,8 @@ footer {
 button {
     background-color: #3882F6;
     border-radius: 10px;
+    color: white;
+    font-weight: bold;
 }
 
 .two {
@@ -138,4 +140,70 @@ figure {
     margin: 25px;
     max-width: 120px;
     flex-wrap: wrap;
+}
+
+#quote {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-credit {
+    text-align: right;
+    color: #1F2937;
+    font-size: 20px;
+}
+
+.four {
+    padding: 12%;
+}
+
+.five {
+    background-color: white;
+}
+
+.flex-continer-4 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 5% 10% 5% 10%;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.box-text {
+    color: white;
+}
+
+.big-box {
+    flex: 5;
+}
+
+.middle-box {
+    flex: 1;
+}
+
+.small-box {
+    flex: 1;
+}
+
+.flex-item-button {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150%;
 }
