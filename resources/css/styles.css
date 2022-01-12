@@ -36,6 +36,8 @@ a:hover {
 
 footer {
     background-color: #1F2937;
+    text-align: center;
+    padding: 1.5%;
 }
 
 .flex-container{
